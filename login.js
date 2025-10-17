@@ -19,7 +19,7 @@ $('#particles').particleground({
     const username = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value.trim();
   
-    if (username === "tygafreefire@gmail.com" && password === "TYGA!SHOP") {
+    if (username === "tygafreefire@gmail.com" && password === "TYGASOLOS!") {
       showNotification("Login successful!", "success");
       setTimeout(() => {
         window.location.href = "admin.html";
@@ -37,4 +37,5 @@ $('#particles').particleground({
       notification.style.display = "none";
     }, 4000);
   }
+
   
